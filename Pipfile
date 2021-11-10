@@ -7,6 +7,8 @@ name = "pypi"
 setuptools = "*"
 mojimoji = "*"
 twine = "*"
+behave = "*"
+pyhamcrest = "*"
 
 [dev-packages]
 
