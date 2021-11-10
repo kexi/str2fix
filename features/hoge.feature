@@ -8,3 +8,6 @@ Feature: convert_with_x
   Scenario: オーバーフロー
     Given I initialize a values with "hogehogehogehoge",10.
     Then It returns "hogehogeho".
+  Scenario: オーバーフロー
+    Given I initialize a values with "hogehogehogehoge",10.
+    Then It returns "hogehogeho".
