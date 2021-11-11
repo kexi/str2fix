@@ -4,6 +4,7 @@ setup(
     name='str2fix',
     version='0.1.0',
     description='A example Python package',
+    long_description=open('README.me').read(),
     url='https://github.com/kexi/str2fix',
     author='kexi',
     author_email='kexi@kexi.jp',
@@ -18,7 +19,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
 )
