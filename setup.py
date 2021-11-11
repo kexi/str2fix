@@ -10,9 +10,8 @@ setup(
     author_email='kexi@kexi.jp',
     license='MIT',
     packages=['str2fix'],
-    install_requires=['mojimoji',
-                      ],
-
+    install_requires=['mojimoji', ],
+    keywords=['japanese', '固定長'],
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Science/Research',
