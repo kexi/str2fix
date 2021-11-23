@@ -9,6 +9,7 @@ __author__ = 'kexi'
 __credits__ = 'kexi'
 
 import mojimoji as moji
+import unicodedata
 
 
 def convert_with_x(val: str, field_length: int) -> str:
@@ -128,3 +129,13 @@ def convert_with_z(val: str, field_length: int) -> str:
     r = r[-field_length:]
 
     return r
+
+
+def _get_byte_length(text: str) -> int:
+    length = 0
+    for c in text:
+        if unicodedata.east_asian_width(c) in 'FWA':
+            length += 2
+        else:
+            length += 1
+    return length

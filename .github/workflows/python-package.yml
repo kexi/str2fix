@@ -5,7 +5,7 @@ name: Python package
 
 on:
   schedule:
-    - cron: '30 0 * * *'
+    - cron: '30 0 1 * *'
   push:
     branches: [ master, '**' ]
   pull_request:
